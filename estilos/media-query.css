@@ -9,10 +9,14 @@
         width: 80vw;
     }
 
-    div#imagem {
+    section#login > div#imagem {
         float: left;
         width: 30%;
         height: 100%;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
 
@@ -23,11 +27,12 @@
 
     section#login {
         width: 80vw;
+        max-width: 1920px;
     }
 
     div#imagem {
-        float: left;
-        width: 40%;
+        float: right;
+        width: 50%;
         height: 100%;
     }
 }
