@@ -63,8 +63,40 @@ div#formulario > p {
     font-size: .8em;
 }
 
-div.botao {
+div.botao > input[type=submit] {
     display: block;
     width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 1em;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
+div.botao > input[type=submit]:hover {
+    background-color: #58d3cf;
+}
+
+button#btn {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 1em;
+    background-color: white;
+    color: #2d5f5d;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#btn:hover {
+    background-color: #5bccc6;
+}
+
+span#elogo {
+    font-size: 1em;
+}
